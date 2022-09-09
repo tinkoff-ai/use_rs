@@ -22,7 +22,17 @@ cd src
 
 4. Run jupyter notebooks `Amazon_Grocery.ipynb` and `Amazon_Electronics.ipynb` in [data](https://github.com/tinkoff-ai/use_rs/tree/main/data) folder to download and build Grocery_and_Gourmet_Food and Electronics datasets.
 
-5. Run the experiments with original implementations of sequential models with the build-in dataset. Each implemented model requires unique set of hyperparameters. Here are some examples:
+5. Run the experiments with baseline models, original and modified implementations of sequential models with the build-in dataset. Each implemented model requires unique set of hyperparameters. Here are some examples:
+- POP
+```bash
+python main.py --model_name POP --train 0 --dataset ml-1m
+```
+
+- BPRMF
+```bash
+python main.py --model_name BPRMF --emb_size 128 --lr 1e-3 --l2 1e-5 --dataset ml-1m
+```
+
 - KDA:
 ```bash
 # ORIGINAL
