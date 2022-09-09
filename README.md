@@ -101,7 +101,7 @@ python main.py --model_name SHAN2 --emb_size 64 --reg_weight 0.001 --pool_type '
 We conducted experiments to compare five original models: SHAN, HGN, SLRC, Chorus and KDA with modified models: $SHAN_{our}$, $HGN_{our}$, $SLRC_{our}$, $Chorus_{our}$ and $KDA_{our}$ on three datasets: MovieLens, Grocery_and_Gourmet_Food and Electronics.
 Table bellow demonstrates main results of experements.
 
-![experiments](https://github.com/tinkoff-ai/use_rs/blob/main/log/_static/expreriments.png)
+![experiments](https://github.com/tinkoff-ai/use_rs/blob/main/log/_static/experiments.png)
 
 
 
